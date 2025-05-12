@@ -1,0 +1,12 @@
+[package]
+name = "rustdisk"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rustdisk"
+path = "src/libdisk.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.172"
